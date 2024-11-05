@@ -1,0 +1,82 @@
+/* home.component.css */
+.hero {
+  background-size: cover;
+  background-position: center;
+  min-height: 100px; /* Set a minimum height for the hero section */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+} 
+  
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+  
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+  
+.hero p {
+  font-size: 20px;
+  margin-bottom: 8px;
+} 
+  
+.explore-btn {
+  padding: 8px 24px;
+  font-size: 18px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+.explore-btn:hover {
+  background-color: #f44336;
+}
+  
+.featured-hotels {
+  padding: 20px 0;
+  text-align: center;
+}
+  
+.featured-hotels h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+  
+.hotel-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+  
+.hotel-card {
+  max-width: 300px;
+  margin: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+  
+.hotel-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+  
+.hotel-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+  
+.hotel-card p {
+  font-size: 16px;
+}

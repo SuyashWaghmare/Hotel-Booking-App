@@ -1,0 +1,15 @@
+<div class="container">
+    <h2>User Details</h2>
+  
+    <div *ngIf="userDetails">
+      <p class="mb-0"><strong>User Name:</strong> {{ userDetails.userName }}</p>
+      <p class="mb-0"><strong>Email:</strong> {{ userDetails.emailId }}</p>
+      <p class="mb-0"><strong>Mobile Number:</strong> {{ userDetails.mobileNumber }}</p>
+      <p class="mb-0"><strong>Password:</strong> {{ userDetails.password ? '********' : 'Not Set' }}</p>
+    </div>
+  
+    <div *ngIf="!userDetails">
+      <p>User details are not available.</p>
+    </div>
+  </div>
+  

@@ -1,0 +1,31 @@
+/* about.component.css */
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+/* about.component.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Optional: Add more styling as per your preference */
+  

@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Available Hotels</h2>
+
+  <div *ngFor="let hotel of availableHotels">
+    <p>{{ hotel.name }} - {{ hotel.city }} - Price: ${{ hotel.price }} - Stars: {{ hotel.stars }}</p>
+    <button (click)="bookHotel(hotel.id)">Book Now</button>
+  </div>
+</div>

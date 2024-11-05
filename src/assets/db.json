@@ -1,0 +1,36 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Luxury Hotel",
+      "city": "Mysuru",
+      "price": 150,
+      "starRating": 5,
+      "userRating": 4.5,
+      "availability": true,
+      "image": "hotel1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "City View Hotel",
+      "city": "Bangalore",
+      "price": 100,
+      "starRating": 4,
+      "userRating": 4.2,
+      "availability": true,
+      "image": "hotel2.jpg"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "hotelId": 1,
+      "checkInDate": "2023-07-20",
+      "checkOutDate": "2023-07-25",
+      "roomType": "Standard",
+      "roomCount": 2,
+      "totalPrice": 300
+    }
+  ]
+}

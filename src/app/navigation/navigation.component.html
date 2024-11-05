@@ -1,0 +1,13 @@
+<nav>
+  <ul>
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/hotels">Search Hotels</a></li>
+    <li><a routerLink="/view-all-hotels">View All Hotels</a></li>
+    <li *ngIf="!isLoggedIn"><a routerLink="/user-login">User Login</a></li>
+    <li *ngIf="!isLoggedIn"><a routerLink="/user-registration">User Registration</a></li>
+    <li *ngIf="isLoggedIn"><a routerLink="/view-all-bookings">View All Bookings</a></li>
+    <li *ngIf="isLoggedIn"><a (click)="logout()">Logout</a></li>
+    <li><a routerLink="/about">Help</a></li>
+    <!-- Add other navigation links as needed -->
+  </ul>
+</nav>
